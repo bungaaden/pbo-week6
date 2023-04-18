@@ -2,8 +2,9 @@ package transportasi;
 
 public class Bicycle 
 {
-    public void cetak() 
+    public Bicycle (String jenis, String merk, String warna)
     {
-        System.out.println("Class Bicycle");
+        System.out.println("Sepeda "+jenis+" bermerk "+merk+" berwarna "+warna);
     }
+
 }

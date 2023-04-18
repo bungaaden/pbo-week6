@@ -2,9 +2,8 @@ package transportasi;
 
 public class Mobil 
 {
-    public void cetak2() 
+    public Mobil (String merk, String warna)
     {
-        System.out.println("Class Mobil");
-    }
-    
+        System.out.println("Mobil bermerk "+merk+" berwarna "+warna);
+    }    
 }
